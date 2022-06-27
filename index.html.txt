@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+    <head>
+        <link rel="shortcut icon" href="img/foto-perfil.png">
+        <title>Meu Portfólio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    </head>
+<body>
+    <!-- Nosso cabeçalho -->
+    <header class="header-menu">
+        <!-- Onde vão ficar os nossos links de acesso da pagina -->
+        <nav>
+            <!--nossa lista de links-->
+            <ul class="lista-menu">
+                <li>
+                    <a href="#formacao">Formação</a>
+                </li>
+                <li>
+                    <a href="#portifolio">Portifólio</a>
+                </li>
+                <li>
+                    <a href="#contato">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Tag principal que fala o scopo principal do nosso site -->
+    <main>
+        <!--O section faz parte da semântica, de criar e separar as sessões do nosso site-->
+        <section class="principal">
+            <!-- A seção do meu site -->
+            <article class="subcontainer-principal container">
+                <!--O article quer dizer que estamos criando um trecho do nosso site, que é independente de outros trechos/para-->
+                <div>
+                    <img src="img/foto-perfil.png" alt=" Perfil Mulheres Negras">
+                </div>
+                <div>
+                    <h1 class="nome-completo"> Ana Carolina Damacena</h1>
+                    <h2 class="profissao"> Desenvolvedora Front-end</h2>
+                </div>
+                <div>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+            </article>
+        </section>
+
+
+        <section>
+            <article id="formacao" class="container article-lista">
+                <div>
+                    <h3 class="topico-principal">Formação</h3>
+                </div>
+                <div class="lista-item">
+                    <ul>
+                        <li>
+                            <p class="lista-titulo">Ciclo Formativo Pretalab</p>
+                            <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab / Olabi</a>
+                            <p class="lista-descricao">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        </li>
+                        <li>
+                            <p class="lista-titulo">Ciclo Formativo Pretalab</p>
+                            <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Colegio Ensino</a>
+                            <p class="lista-descricao">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+
+        <section class="wrapper-portifolio">
+            <article id="portifolio" class="container article-lista">
+                <div>
+                    <h3 class="topico-principal">Blog</h3>
+                </div>
+                <div class="lista-item">
+                    <ul>
+                        <li>
+                            <p class="lista-titulo">Mulheres que fazem história</p>
+                            <p class="subtitulo-lista">Revelo</p>
+                            <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local"> 27 27-desenvolvedoras-brasileiras-para-se-inspirar</a>
+                            "</a>
+                            <p class="lista-descricao">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        </li>
+                        <li>
+                            <p class="lista-titulo">Quem Coda BR</p>
+                            <p class="subtitulo-lista">Pretalab</p>
+                            <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local"> 27 27-desenvolvedoras-brasileiras-para-se-inspirar</a>
+                            "</a>
+                            <p class="lista-descricao">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- Rodape -->
+    <footer id="contatos" class="header-rodape">
+        <div>
+            <ul class="lista-rodape">
+                <!-- Explicar sobre icones -->
+                <b><li><i class="fas fa-envelope-square estilo-icon"></i>anacarolinadgo.df@gmail.com</li>
+                <li><i class="fab fa-linkedin estilo-icon"></i>Ana Carolina Damacena</li>
+                <li><i class="fab fa-github-square estilo-icon"></i>caroldgo</li></b>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
